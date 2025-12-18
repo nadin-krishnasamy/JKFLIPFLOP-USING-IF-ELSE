@@ -49,11 +49,12 @@ For different input combinations generate the timing diagram.
 
 '''
 
-module exp5(J,K,Q,Y);
-input J,K,Q;
+module ex5(J,K,Qt,Y);
+input J,K,Qt;
 output Y;
-assign Y = J & ~Q | ~K & Q;
-endmodule
+assign Y = J & ~Qt | ~K & Qt;
+endmodule 
+
 
 '''
 
