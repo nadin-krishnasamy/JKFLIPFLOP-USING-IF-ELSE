@@ -47,16 +47,11 @@ For different input combinations generate the timing diagram.
 
 **PROGRAM**
 
-'''
-
 module ex5(J,K,Qt,Y);
 input J,K,Qt;
 output Y;
 assign Y = J & ~Qt | ~K & Qt;
 endmodule 
-
-
-'''
 
 
 **RTL LOGIC FOR FLIPFLOPS**
